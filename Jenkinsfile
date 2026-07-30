@@ -7,7 +7,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build --no-cache -t vite-app .'
+               bat '"C:\\Users\\reena\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" build --no-cache -t vite-app .'
             }
         }
 
