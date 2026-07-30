@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER ="C:\Users\reena\AppData\Local\Programs\DockerDesktop\Docker Desktop.exe"
+        DOCKER ="C:\\Users\\reena\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe"
+
     }
 
     stages {
